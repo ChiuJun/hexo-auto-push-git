@@ -1,0 +1,24 @@
+{
+  "name": "hexo-auto-push-git",
+  "version": "0.0.0",
+  "description": "Git push plugin of Hexo.",
+  "main": "index.js",
+  "scripts": {
+    "eslint": "eslint ."
+  },
+  "directories": {
+    "lib": "./lib"
+  },
+  "files": [
+    "lib/",
+    "index.js"
+  ],
+  "dependencies": {
+    "hexo-util": "^3.0.1",
+    "luxon": "^3.2.1",
+    "nunjucks": "^3.2.3"
+  },
+  "engines": {
+    "node": ">=14"
+  }
+}
