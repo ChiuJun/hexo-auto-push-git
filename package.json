@@ -1,6 +1,6 @@
 {
   "name": "hexo-auto-push-git",
-  "version": "0.0.0",
+  "version": "0.0.0-alpha",
   "description": "Git push plugin of Hexo.",
   "main": "index.js",
   "scripts": {
