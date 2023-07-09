@@ -1,3 +1,10 @@
+# :exclamation: **This repository has been archived**
+The better way is alias shell command
+```shell
+alias hexo_post_article_to_source_repo="git add -A && git commit -m \"docs: site updated `date \"+%Y-%m-%d %H:%M:%S\"`\" && git push -u origin HEAD:main"
+alias hexop=hexo_post_article_to_source_repo
+```
+
 # hexo-auto-push-git
 A plugin for [Hexo] that can one-command push source code.  
 
